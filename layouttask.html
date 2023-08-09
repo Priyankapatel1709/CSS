@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .web{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLzmQNHB0g1KR0OeeldV5qltnbfIQ8Qyh4QA&usqp=CAU);
+            image-resolution: inherit;
+            height: 750px;
+            width: auto;
+            background-size: cover;
+        }
+        .head{
+            height: 60px;
+            display: flex;
+        }
+        .prarose{
+            height: inherit;
+            width: 20%;
+            color: yellowgreen;
+            font-size: 45px;
+        }
+        .home{
+            height: inherit;
+            width: 40%;
+            margin-top: 10px;
+            word-spacing: 40px;
+            font-size: 20px;     
+        }
+        a{
+            margin-top: 50px;
+            text-decoration: none;
+            color: white;
+            font-size: 24px;
+        }
+        .H1{
+            height: 30px;
+            width: 30%;
+            display: flex;
+           margin-top: 10px;
+           margin-left: 150px;
+        }
+        input[type="search"]{
+            margin-top: 10px;
+            height: 30px;
+            outline:none;
+            border: 2px solid coral;
+            background-color: black;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+            color: coral;
+            font-size: 20px;
+        }
+        input[type="submit"]{
+            margin-top: 10px;
+            height: 30px;
+            outline:none;
+            border: 2px solid coral;
+            background-color: white;
+            color: black;
+            font-size: 20px;
+        }
+        .H2{
+            display: inline-flex;
+            margin-top: 100px;
+            margin-left: 50px;
+        }
+        .H3{
+            font-size: x-large;
+        }
+        table{
+            margin-left: 150px;
+            height: 400px;
+            width: 250px;
+            border: none;
+            margin-right: 20px;
+            background-color: black;
+            border-radius: 25px;
+            color: white;
+        }
+        input[type="email"]{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid coral;
+            background-color: black;
+            color: white;
+        }
+        input[type="password"]{
+            outline: none;
+            border: none;
+            border-bottom: 1px solid coral;
+            background-color: black;
+            color: white;
+        }
+        input[type="password"]:focus{
+            outline: none;
+        }
+        img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="web">
+            <div class="head">
+                <div class="prarose">PRAROSE</div>
+                <div class="home">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Services</a>
+                    <a href="">Design</a>
+                    <a href="">Contact</a>
+                </div>
+                <div class="H1">
+                    <input type="search" name="" id="" placeholder="Type to Search">
+                    <input type="submit" name="" id="" value="serch">
+                </div>
+            </div>
+            <div class="H2">
+                <div class="H3">
+                    <h1>Web Design & <br> <span style="color: coral;">Devlopment</span> <br> course</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nisi magnam aliquam perspiciatis perferendis veritatis necessitatibus dolores natus voluptas eaque earum repellendus, nihil nobis doloribus veniam, illum voluptates in! Amet.</p>
+                    <input type="submit" name="" id="" value="JOIN US" required>
+                </div>
+                <div class="H4">
+                    <table>
+                        <th colspan="5" align="center">LOGIN HERE</th>
+                        <tr>
+                            <td colspan="5"><input type="email" name="" id="" placeholder="Enter your email id" required size="40px"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><input type="password" name="" id="" placeholder="Enter your password" required  size="40px"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5" align="center"><input type="submit" name="" id="01"  value="LOGIN" style="font-size: 15px;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"> 
+                                <center>don't have an account?<br><a style="color: coral;" href="">Sign Up</a></center>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5"><center>Log in with</center></td>
+                        </tr>
+                        <tr align="center">
+                            <td><img src="C:\Users\USER\Desktop\instalogo.jpg" alt="" height="40px" width="40px"></td>
+                            <td><img src="C:\Users\USER\Desktop\facebook logo.png" alt="" height="40px" width="40px"></td>
+                            <td><img src="C:\Users\USER\Desktop\Logo_of_Twitter.svg.png" alt="" height="40px" width="40px"></td>
+                            <td><img src="C:\Users\USER\Desktop\linkedin.png" alt="" height="40px" width="40px"></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

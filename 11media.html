@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        .head{
+            height: 100px;
+            background-color: brown;
+        }
+        .main{
+            display: flex;
+        }
+        .m{
+            height: 100px;
+        }
+        #main1{
+            width: 100%;
+            background-color: blue;
+        }
+        #main2{
+            width: 100%;
+            background-color: yellow;
+        }
+        #main3{
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+        }
+        #main4{
+            width: 100%;
+            background-color:tomato;
+        }
+        .foot{
+            height: 100px;
+            background-color: violet;
+                
+        }
+        /*............ phone media */
+        @media screen and (max-width:480px) {
+            .head{
+            height: 100px;
+            background-color: brown;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .m{
+            height: 100px;
+        }
+        #main1{
+            width: 100%;
+            background-color: blue;
+        }
+        #main2{
+            width: 100%;
+            background-color: yellow;
+        }
+        #main3{
+            width: 100%;
+            background-color: rgb(255, 0, 0);
+        }
+        #main4{
+            width: 100%;
+            background-color:tomato;
+        }
+        .foot{
+            height: 100px;
+            background-color: violet;
+                
+        }
+        }
+        /* tab media */
+        @media (min-width:481px) and (max-width:768px) {
+            .head{
+            height: 100px;
+            background-color: brown;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .m{
+            height: 100px;
+        }
+        #main1{
+            width: 100%;
+            background-color: blue;
+        }
+        #main2{
+            width: 33.33%;
+            background-color: yellow;
+        }
+        #main3{
+            width: 33.33%;
+            background-color:  rgb(255, 0, 0);
+        }
+        #main4{
+            width: 33.33%;
+            background-color:tomato;
+        }
+        .foot{
+            height: 100px;
+            background-color: violet;
+                
+        }
+        }
+        /* pc media */
+        @media (min-width:769px) and (max-width:1024px) {
+            .head{
+            height: 100px;
+            background-color: brown;
+        }
+        .main{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .m{
+            height: 100px;
+        }
+        #main1{
+            width: 50%;
+            background-color: blue;
+        }
+        #main2{
+            width: 50%;
+            background-color: yellow;
+        }
+        #main3{
+            width: 50%;
+            background-color: rgb(255, 0, 0);
+        }
+        #main4{
+            width: 50%;
+            background-color:tomato;
+        }
+        .foot{
+            height: 100px;
+            background-color: violet;
+                
+        }
+        }
+       
+    </style>
+</head>
+<body>
+     <!-- 320px — 480px: Mobile devices
+    481px — 768px: iPads, Tablets
+    769px — 1024px: Small screens, laptops
+    1025px — 1200px: Desktops, large screens
+    1201px and more —  Extra large screens, TV -->
+    <div class="head"></div>
+    <div class="main">
+        <div id="main1" class="m"></div>
+        <div id="main2" class="m"></div>
+        <div id="main3" class="m"></div>
+        <div id="main4" class="m"></div>
+    </div>
+    <div class="foot"></div>
+</body>
+</html>
